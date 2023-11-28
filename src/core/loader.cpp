@@ -89,7 +89,6 @@ HANDLE modLoader::getMinecraftWindowHandle()
     if (hwnd != NULL)
     {
         printf("Found minecraft window handle: %p\n", hwnd);
-        return hwnd;
     }
     else
     {
